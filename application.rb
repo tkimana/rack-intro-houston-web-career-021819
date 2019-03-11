@@ -1,4 +1,4 @@
-gets "/Application"
+gets "/Application.rb"
 class Application
 
   def call(env)
