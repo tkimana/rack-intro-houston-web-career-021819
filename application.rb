@@ -1,3 +1,4 @@
+get "/Application"
 class Application
 
   def call(env)
@@ -8,6 +9,6 @@ class Application
 
 end
 
-def call(env)
-  resp = Rake::Response.new
-  resp.write "Hello,"
+# def call(env)
+#   resp = Rake::Response.new
+#   resp.write "Hello,"
