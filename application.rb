@@ -1,4 +1,4 @@
-get "/Application"
+gets "/Application"
 class Application
 
   def call(env)
