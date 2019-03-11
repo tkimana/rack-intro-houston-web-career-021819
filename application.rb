@@ -11,4 +11,5 @@ end
 
 def call(env)
   resp = Rake::Response.new
-resp.write "Hello,"
+  resp.write "My name is"
+  resp.finish
